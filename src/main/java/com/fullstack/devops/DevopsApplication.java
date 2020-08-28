@@ -8,6 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class DevopsApplication extends SpringBootServletInitializer{
 
+	/* this method for the deployment purpos of jenkins*/
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(DevopsApplication.class);
